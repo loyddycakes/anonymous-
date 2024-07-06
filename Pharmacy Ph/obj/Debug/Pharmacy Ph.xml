@@ -1,0 +1,286 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Pharmacy Ph
+</name>
+</assembly>
+<members>
+<member name="T:Pharmacy_Ph.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Pharmacy_Ph.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Pharmacy_Ph.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet.PMS_RecordDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet.PMS_RecordRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet.PMS_RecordRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSetTableAdapters.PMS_RecordTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pharmacy_Ph.PMS_FileDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pharmacy_Ph.PMS_FileDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pharmacy_Ph.PMS_FileDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSetTableAdapters.TableAdapterManager.UpdateAll(Pharmacy_Ph.PMS_FileDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet1.RegisteredDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet1.RegisteredRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet1.RegisteredRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet1TableAdapters.RegisteredTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pharmacy_Ph.PMS_FileDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Pharmacy_Ph.PMS_FileDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Pharmacy_Ph.PMS_FileDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet1TableAdapters.TableAdapterManager.UpdateAll(Pharmacy_Ph.PMS_FileDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet2.PMS_RecordDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet2.PMS_RecordRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet2.PMS_RecordRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet2TableAdapters.PMS_RecordTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pharmacy_Ph.PMS_FileDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Pharmacy_Ph.PMS_FileDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Pharmacy_Ph.PMS_FileDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet2TableAdapters.TableAdapterManager.UpdateAll(Pharmacy_Ph.PMS_FileDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet3.RegisteredDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet3.RegisteredRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet3.RegisteredRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet3TableAdapters.RegisteredTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pharmacy_Ph.PMS_FileDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Pharmacy_Ph.PMS_FileDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Pharmacy_Ph.PMS_FileDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Pharmacy_Ph.PMS_FileDataSet3TableAdapters.TableAdapterManager.UpdateAll(Pharmacy_Ph.PMS_FileDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Pharmacy_Ph.PMS_FileDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
